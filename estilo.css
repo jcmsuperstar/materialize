@@ -1,0 +1,100 @@
+.flow-text {
+    font-size: 1.2rem;
+}
+
+.opciones {
+    top: 2%;
+    left: 3%;
+    width: 16%;
+    height: 2%;
+    color: white;
+    font-size: 13px;
+    position: fixed;
+    z-index: 155;
+}
+
+.submenu {
+    left: -1400px;
+    top: 6%;
+    width: 85%;
+    height: 65%;
+    position: fixed;
+    border-style: solid white;
+    border-radius: 4px;
+    transition: .3s;
+    position: fixed;
+    background: white;
+    opacity: 97.5%;
+    z-index: 156;
+}
+
+.fondo {
+    left: 0px;
+    top: 0px;
+    width: 98%;
+    height: 98%;
+    position: relative;
+    border-style: solid;
+    border-color: white;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px 2px grey;
+    background: white;
+    margin-top: 10px;
+    padding-top: 5px;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.redes,
+.fichas {
+    left: 8px;
+    width: 93%;
+    text-align: center;
+    border-style: solid;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px 2px grey;
+    border-color: white;
+    margin: 5px;
+}
+
+#rrss,
+.ftecnicas {
+    width: 95%;
+    height: 40px;
+    position: relative;
+    border-style: solid;
+    border-radius: 7px;
+    border-width: .1px;
+    transition: 0.3s;
+    background: #a7ffeb;
+    margin: 2px 0px 2px 0px;
+    padding: 4px;
+    text-align: center;
+    font-size: 18px;
+    overflow: hidden;
+}
+
+.cajafichassur,
+.cajafichas3m,
+.cajafichaslore,
+.cajafichasbticino,
+.cajafichaseagle,
+.cajafichashenkel,
+.cajafichasmet,
+.cajafichaspfister {
+    top: 0px;
+    left: 18%;
+    width: 60%;
+    height: 35px;
+    position: relative;
+    border-style: solid;
+    border-radius: 7px;
+    border-width: .5px;
+    transition: 0.3s;
+    background: #fafafa;
+    margin: 2px 0px 2px 0px;
+    padding: 8px;
+    text-align: center;
+    font-size: 18px;
+    overflow: hidden;
+}
